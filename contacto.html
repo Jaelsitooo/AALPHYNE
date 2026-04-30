@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | ALPHYNE</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Trabajemos juntos</h1>
+        <p>Diseñamos experiencias visuales que elevan tu marca al siguiente nivel.</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+    </div>
+</section>
+
+<section id="contacto" class="contact">
+    <h2 class="section-title reveal">Envíanos un mensaje</h2>
+
+    <form id="form" class="form">
+        
+        <div class="input-group reveal">
+            <input type="text" id="nombre" required>
+            <label for="nombre">Nombre completo</label>
+            <span class="error"></span>
+        </div>
+
+        <div class="input-group reveal">
+            <input type="email" id="email" required>
+            <label for="email">Email</label>
+            <span class="error"></span>
+        </div>
+
+        <div class="input-group reveal">
+            <input type="tel" id="telefono">
+            <label for="telefono">Teléfono</label>
+        </div>
+
+        <div class="input-group reveal">
+            <label for="servicio">Tipo de servicio</label>
+            <select id="servicio">
+                <option value="">Tipo de servicio</option>
+                <option>Branding & Identidad Visual</option>
+                <option>Diseño de Páginas Web (UI/UX)</option>
+                <option>Desarrollo Web a Medida</option>
+                <option>Diseño para Redes Sociales</option>
+                <option>Motion Graphics & Animaciones</option>
+                <option>Diseño Publicitario</option>
+                <option>Packaging Design</option>
+                <option>Consultoría de Marca</option>
+                <option>Diseño Editorial</option>
+                <option>Optimización UX</option>
+            </select>
+            <span class="error"></span>
+        </div>
+
+        <div class="input-group reveal">
+            <label for="presupuesto">Presupuesto</label>
+            <select id="presupuesto">
+                <option value="">Presupuesto</option>
+                <option>$500 - $1000</option>
+                <option>$1000 - $3000</option>
+                <option>$3000 - $5000</option>                    
+                <option>$5000+</option>
+            </select>
+            <span class="error"></span>
+        </div> 
+
+        <div class="input-group reveal">
+            <textarea id="mensaje" required></textarea>
+            <label for="mensaje">Mensaje</label>
+            <span class="error"></span>
+        </div>
+
+        <button type="submit" class="btn reveal">Enviar mensaje</button>
+
+        <p id="success" class="success"></p>
+
+    </form>
+</section>
+
+<section class="info">
+    <div class="card reveal">
+        <h3>📍 Ubicación</h3>
+        <p>Santo Domingo, RD</p>
+    </div>
+
+    <div class="card reveal">
+        <h3>📧 Email</h3>
+        <p>alphynestudio@gmail.com</p>
+    </div>
+
+    <div class="card reveal">
+        <h3>📞 Teléfono</h3>
+        <p>+1 829 308 2536</p>
+    </div>
+</section>
+
+<section class="social">
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">Facebook</a>
+</section>
+
+
+
+<footer class="footer reveal">
+    <p>© 2026 ALPHYNE — Diseño que impacta.</p>
+</footer>
+
+<script src="js/contacto.js"></script>
+</body>
+</html>
